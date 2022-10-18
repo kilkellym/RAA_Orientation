@@ -29,9 +29,6 @@ namespace RAA_Orientation
 
             TaskDialog.Show("Test", "I got here too!");
 
-            TaskDialog.Show("Test", "Does this code appear in Github?");
-            
-            TaskDialog.Show("Test", "This dialog was added directly in Github!");
 
             return Result.Succeeded;
         }
