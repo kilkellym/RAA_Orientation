@@ -29,6 +29,7 @@ namespace RAA_Orientation
 
             TaskDialog.Show("Test", "I got here too!");
 
+            // added a comment 
 
             return Result.Succeeded;
         }
