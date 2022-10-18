@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command RAA_Orientation</Text>
+    <Description>Some description for RAA_Orientation</Description>
+    <Assembly>RAA_Orientation.dll</Assembly>
+    <FullClassName>RAA_Orientation.Command</FullClassName>
+    <ClientId>9d7d7aee-ea98-4a80-9187-f447763b2a0b</ClientId>
+    <VendorId>Revit Add-in Academy</VendorId>
+    <VendorDescription>ArchSmarter, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Application RAA_Orientation</Name>
+    <Assembly>RAA_Orientation.dll</Assembly>
+    <FullClassName>RAA_Orientation.App</FullClassName>
+    <ClientId>e2f8a1d7-d93d-4763-b74c-931adbf522f1</ClientId>
+    <VendorId>com.typepad.thebuildingcoder</VendorId>
+    <VendorDescription>The Building Coder, http://thebuildingcoder.typepad.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>
